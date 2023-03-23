@@ -1,2 +1,1 @@
-# simple-social-media-app
-a simple program in java that I code to improve my OOP skills
+[javadoc](https://meteahmetyakar.github.io/simple-social-media-app/javadoc/SocialMedia/package-summary.html).
