@@ -1,4 +1,4 @@
-package SocialMedia;
+package SocialMedia.basicArray;
 /**
  * first testcases
  * @author meteahmetyakar
@@ -8,6 +8,9 @@ public class Scenario1 {
 
     public static void main(String[] args)
     {
+        long startTime = System.currentTimeMillis();
+
+
         Account gizemsungu = new Account(1,"gizemsungu","08081998","İstanbul");
         Account sibelgulmez = new Account(1,"sibelgulmez","08081998","İstanbul");
         Account gokhankaya = new Account(1,"gokhankaya","08081998","İstanbul");
@@ -51,6 +54,9 @@ public class Scenario1 {
         gizemsungu.viewPosts(sibelgulmez);
         gizemsungu.viewInteractions(sibelgulmez);
 
+        long endTime   = System.currentTimeMillis();
+        long totalTime = endTime - startTime;
+        System.out.println(totalTime);
 
     }
 }
